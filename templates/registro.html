@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../static/css/registro.css">
+</head>
+<body>
+    <div class="container_inicio">
+        <div class="container_form">
+            <div class="form_container">
+                <h2 class="titulo">Datos Personales</h2>
+                <form id="formulario" action="" method="POST">
+                    <input type="text" class="inputText" name="nombres" placeholder="Nombre">
+                    <input type="text" class="inputText" name="apellidos" placeholder="Apellidos">
+                    <input type="text" class="inputText" name="telefono" placeholder="Telefono">
+                    <input type="text" class="inputText" name="telefono_sos" placeholder="Telefono de emergencia">
+                    <input type="email" class="inputText" name="correo" placeholder="Correo">
+                    <input type="text" class="inputText" name="num_doc" placeholder="Numero de documento">
+                    <input type="date" class="inputText" name="fecha_nac" placeholder="Fecha de nacimeinto">
+                    <select class="inputText" name="tipo_sangre" id="sangre">
+                        <option value="">Seleccione su tipo sanguíneo</option>
+                        <option value="">O-</option>
+                        <option value="">O+</option>
+                        <option value="">A-</option>
+                        <option value="">A+</option>
+                        <option value="">B-</option>
+                        <option value="">B+</option>
+                        <option value="">AB-</option>
+                        <option value="">AB+</option>
+                    </select>
+                    <!-- <input type="text" class="inputText" name="tipo_sangre" placeholder="Tipo de sangre"> -->
+                    <input type="text" class="inputText" name="direccion" placeholder="Direccion">
+                    <input type="text" class="inputText" name="pais" placeholder="Pais">
+                    <hr>
+                    <h2 class="titulo">
+                        Datos de la Carrera
+                    </h2>
+                    <input type="text" class="inputText" placeholder="EPS">
+                    <input type="text" class="inputText" placeholder="Alergias">
+                    <input type="text" class="inputText" placeholder="Categorias">
+                    <input type="text" class="inputText" placeholder="Distancias">
+                    <input type="text" class="inputText" placeholder="Talla del jersey">
+                    <button class="buttonSumit">Registrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
